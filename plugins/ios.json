@@ -1,0 +1,29 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {
+            "config.xml": {
+                "parents": {
+                    "/*": [
+                        {
+                            "xml": "<feature name=\"NotificationHub\"><param name=\"ios-package\" value=\"NotificationHubPlugin\" /></feature>",
+                            "count": 1
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "installed_plugins": {
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "io.cordova.myappd88a31"
+        },
+        "ventures.paramount.phonegap.notificationhub": {
+            "PACKAGE_NAME": "io.cordova.myappd88a31"
+        }
+    },
+    "dependent_plugins": {}
+}

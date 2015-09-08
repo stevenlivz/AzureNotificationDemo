@@ -1,0 +1,171 @@
+Running command: /Users/steven/dev/code/demo/AzureNotificationHubsDemo/AzureNotificationHubsDemo/platforms/ios/cordova/build --buildConfig=/Users/steven/dev/code/demo/AzureNotificationHubsDemo/AzureNotificationHubsDemo/build.json
+Reading build config file: /Users/steven/dev/code/demo/AzureNotificationHubsDemo/AzureNotificationHubsDemo/build.json
+Building project  : /Users/steven/dev/code/demo/AzureNotificationHubsDemo/AzureNotificationHubsDemo/platforms/ios/AzureNotificationHubsDemo.xcodeproj
+	Configuration : Debug
+	Platform      : emulator
+Build settings from command line:
+    ARCHS = i386
+    CONFIGURATION_BUILD_DIR = /Users/steven/dev/code/demo/AzureNotificationHubsDemo/AzureNotificationHubsDemo/platforms/ios/build/emulator
+    SDKROOT = iphonesimulator8.4
+    SHARED_PRECOMPS_DIR = /Users/steven/dev/code/demo/AzureNotificationHubsDemo/AzureNotificationHubsDemo/platforms/ios/build/sharedpch
+    VALID_ARCHS = i386
+
+Build settings from configuration file '/Users/steven/dev/code/demo/AzureNotificationHubsDemo/AzureNotificationHubsDemo/platforms/ios/cordova/build-debug.xcconfig':
+    CODE_SIGN_IDENTITY = iPhone Developer
+    CODE_SIGN_RESOURCE_RULES_PATH = $(SDKROOT)/ResourceRules.plist
+
+=== BUILD TARGET CordovaLib OF PROJECT CordovaLib WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+=== BUILD TARGET AzureNotificationHubsDemo OF PROJECT AzureNotificationHubsDemo WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+PhaseScriptExecution Copy\ www\ directory build/AzureNotificationHubsDemo.build/Debug-iphonesimulator/AzureNotificationHubsDemo.build/Script-304B58A110DAC018002A0835.sh
+    cd /Users/steven/dev/code/demo/AzureNotificationHubsDemo/AzureNotificationHubsDemo/platforms/ios
+    /bin/sh -c /Users/steven/dev/code/demo/AzureNotificationHubsDemo/AzureNotificationHubsDemo/platforms/ios/build/AzureNotificationHubsDemo.build/Debug-iphonesimulator/AzureNotificationHubsDemo.build/Script-304B58A110DAC018002A0835.sh
+
+CpResource AzureNotificationHubsDemo/Resources/icons/icon-40@2x.png build/emulator/AzureNotificationHubsDemo.app/icon-40@2x.png
+    cd /Users/steven/dev/code/demo/AzureNotificationHubsDemo/AzureNotificationHubsDemo/platforms/ios
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/steven/Library/Android/sdk/platform-tools/"
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/steven/dev/code/demo/AzureNotificationHubsDemo/AzureNotificationHubsDemo/platforms/ios/AzureNotificationHubsDemo/Resources/icons/icon-40@2x.png /Users/steven/dev/code/demo/AzureNotificationHubsDemo/AzureNotificationHubsDemo/platforms/ios/build/emulator/AzureNotificationHubsDemo.app
+
+CpResource AzureNotificationHubsDemo/Resources/icons/icon-72.png build/emulator/AzureNotificationHubsDemo.app/icon-72.png
+    cd /Users/steven/dev/code/demo/AzureNotificationHubsDemo/AzureNotificationHubsDemo/platforms/ios
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/steven/Library/Android/sdk/platform-tools/"
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/steven/dev/code/demo/AzureNotificationHubsDemo/AzureNotificationHubsDemo/platforms/ios/AzureNotificationHubsDemo/Resources/icons/icon-72.png /Users/steven/dev/code/demo/AzureNotificationHubsDemo/AzureNotificationHubsDemo/platforms/ios/build/emulator/AzureNotificationHubsDemo.app
+
+CpResource AzureNotificationHubsDemo/Resources/icons/icon-76.png build/emulator/AzureNotificationHubsDemo.app/icon-76.png
+    cd /Users/steven/dev/code/demo/AzureNotificationHubsDemo/AzureNotificationHubsDemo/platforms/ios
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/steven/Library/Android/sdk/platform-tools/"
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/steven/dev/code/demo/AzureNotificationHubsDemo/AzureNotificationHubsDemo/platforms/ios/AzureNotificationHubsDemo/Resources/icons/icon-76.png /Users/steven/dev/code/demo/AzureNotificationHubsDemo/AzureNotificationHubsDemo/platforms/ios/build/emulator/AzureNotificationHubsDemo.app
+
+CpResource AzureNotificationHubsDemo/Resources/splash/Default-736h.png build/emulator/AzureNotificationHubsDemo.app/Default-736h.png
+    cd /Users/steven/dev/code/demo/AzureNotificationHubsDemo/AzureNotificationHubsDemo/platforms/ios
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/steven/Library/Android/sdk/platform-tools/"
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/steven/dev/code/demo/AzureNotificationHubsDemo/AzureNotificationHubsDemo/platforms/ios/AzureNotificationHubsDemo/Resources/splash/Default-736h.png /Users/steven/dev/code/demo/AzureNotificationHubsDemo/AzureNotificationHubsDemo/platforms/ios/build/emulator/AzureNotificationHubsDemo.app
+
+CpResource AzureNotificationHubsDemo/Resources/icons/icon.png build/emulator/AzureNotificationHubsDemo.app/icon.png
+    cd /Users/steven/dev/code/demo/AzureNotificationHubsDemo/AzureNotificationHubsDemo/platforms/ios
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/steven/Library/Android/sdk/platform-tools/"
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/steven/dev/code/demo/AzureNotificationHubsDemo/AzureNotificationHubsDemo/platforms/ios/AzureNotificationHubsDemo/Resources/icons/icon.png /Users/steven/dev/code/demo/AzureNotificationHubsDemo/AzureNotificationHubsDemo/platforms/ios/build/emulator/AzureNotificationHubsDemo.app
+
+CpResource AzureNotificationHubsDemo/Resources/icons/icon@2x.png build/emulator/AzureNotificationHubsDemo.app/icon@2x.png
+    cd /Users/steven/dev/code/demo/AzureNotificationHubsDemo/AzureNotificationHubsDemo/platforms/ios
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/steven/Library/Android/sdk/platform-tools/"
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/steven/dev/code/demo/AzureNotificationHubsDemo/AzureNotificationHubsDemo/platforms/ios/AzureNotificationHubsDemo/Resources/icons/icon@2x.png /Users/steven/dev/code/demo/AzureNotificationHubsDemo/AzureNotificationHubsDemo/platforms/ios/build/emulator/AzureNotificationHubsDemo.app
+
+CpResource AzureNotificationHubsDemo/Resources/icons/icon-50.png build/emulator/AzureNotificationHubsDemo.app/icon-50.png
+    cd /Users/steven/dev/code/demo/AzureNotificationHubsDemo/AzureNotificationHubsDemo/platforms/ios
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/steven/Library/Android/sdk/platform-tools/"
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/steven/dev/code/demo/AzureNotificationHubsDemo/AzureNotificationHubsDemo/platforms/ios/AzureNotificationHubsDemo/Resources/icons/icon-50.png /Users/steven/dev/code/demo/AzureNotificationHubsDemo/AzureNotificationHubsDemo/platforms/ios/build/emulator/AzureNotificationHubsDemo.app
+
+CpResource AzureNotificationHubsDemo/Resources/icons/icon-small.png build/emulator/AzureNotificationHubsDemo.app/icon-small.png
+    cd /Users/steven/dev/code/demo/AzureNotificationHubsDemo/AzureNotificationHubsDemo/platforms/ios
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/steven/Library/Android/sdk/platform-tools/"
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/steven/dev/code/demo/AzureNotificationHubsDemo/AzureNotificationHubsDemo/platforms/ios/AzureNotificationHubsDemo/Resources/icons/icon-small.png /Users/steven/dev/code/demo/AzureNotificationHubsDemo/AzureNotificationHubsDemo/platforms/ios/build/emulator/AzureNotificationHubsDemo.app
+
+CpResource AzureNotificationHubsDemo/Resources/icons/icon-60@2x.png build/emulator/AzureNotificationHubsDemo.app/icon-60@2x.png
+    cd /Users/steven/dev/code/demo/AzureNotificationHubsDemo/AzureNotificationHubsDemo/platforms/ios
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/steven/Library/Android/sdk/platform-tools/"
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/steven/dev/code/demo/AzureNotificationHubsDemo/AzureNotificationHubsDemo/platforms/ios/AzureNotificationHubsDemo/Resources/icons/icon-60@2x.png /Users/steven/dev/code/demo/AzureNotificationHubsDemo/AzureNotificationHubsDemo/platforms/ios/build/emulator/AzureNotificationHubsDemo.app
+
+CpResource AzureNotificationHubsDemo/Resources/splash/Default-Landscape@2x~ipad.png build/emulator/AzureNotificationHubsDemo.app/Default-Landscape@2x~ipad.png
+    cd /Users/steven/dev/code/demo/AzureNotificationHubsDemo/AzureNotificationHubsDemo/platforms/ios
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/steven/Library/Android/sdk/platform-tools/"
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/steven/dev/code/demo/AzureNotificationHubsDemo/AzureNotificationHubsDemo/platforms/ios/AzureNotificationHubsDemo/Resources/splash/Default-Landscape@2x~ipad.png /Users/steven/dev/code/demo/AzureNotificationHubsDemo/AzureNotificationHubsDemo/platforms/ios/build/emulator/AzureNotificationHubsDemo.app
+
+CpResource AzureNotificationHubsDemo/Resources/splash/Default-Portrait@2x~ipad.png build/emulator/AzureNotificationHubsDemo.app/Default-Portrait@2x~ipad.png
+    cd /Users/steven/dev/code/demo/AzureNotificationHubsDemo/AzureNotificationHubsDemo/platforms/ios
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/steven/Library/Android/sdk/platform-tools/"
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/steven/dev/code/demo/AzureNotificationHubsDemo/AzureNotificationHubsDemo/platforms/ios/AzureNotificationHubsDemo/Resources/splash/Default-Portrait@2x~ipad.png /Users/steven/dev/code/demo/AzureNotificationHubsDemo/AzureNotificationHubsDemo/platforms/ios/build/emulator/AzureNotificationHubsDemo.app
+
+CpResource AzureNotificationHubsDemo/Resources/splash/Default-Landscape~ipad.png build/emulator/AzureNotificationHubsDemo.app/Default-Landscape~ipad.png
+    cd /Users/steven/dev/code/demo/AzureNotificationHubsDemo/AzureNotificationHubsDemo/platforms/ios
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/steven/Library/Android/sdk/platform-tools/"
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/steven/dev/code/demo/AzureNotificationHubsDemo/AzureNotificationHubsDemo/platforms/ios/AzureNotificationHubsDemo/Resources/splash/Default-Landscape~ipad.png /Users/steven/dev/code/demo/AzureNotificationHubsDemo/AzureNotificationHubsDemo/platforms/ios/build/emulator/AzureNotificationHubsDemo.app
+
+CpResource AzureNotificationHubsDemo/Resources/icons/icon-small@2x.png build/emulator/AzureNotificationHubsDemo.app/icon-small@2x.png
+    cd /Users/steven/dev/code/demo/AzureNotificationHubsDemo/AzureNotificationHubsDemo/platforms/ios
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/steven/Library/Android/sdk/platform-tools/"
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/steven/dev/code/demo/AzureNotificationHubsDemo/AzureNotificationHubsDemo/platforms/ios/AzureNotificationHubsDemo/Resources/icons/icon-small@2x.png /Users/steven/dev/code/demo/AzureNotificationHubsDemo/AzureNotificationHubsDemo/platforms/ios/build/emulator/AzureNotificationHubsDemo.app
+
+CpResource AzureNotificationHubsDemo/Resources/splash/Default-Portrait~ipad.png build/emulator/AzureNotificationHubsDemo.app/Default-Portrait~ipad.png
+    cd /Users/steven/dev/code/demo/AzureNotificationHubsDemo/AzureNotificationHubsDemo/platforms/ios
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/steven/Library/Android/sdk/platform-tools/"
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/steven/dev/code/demo/AzureNotificationHubsDemo/AzureNotificationHubsDemo/platforms/ios/AzureNotificationHubsDemo/Resources/splash/Default-Portrait~ipad.png /Users/steven/dev/code/demo/AzureNotificationHubsDemo/AzureNotificationHubsDemo/platforms/ios/build/emulator/AzureNotificationHubsDemo.app
+
+CpResource AzureNotificationHubsDemo/Resources/splash/Default-667h.png build/emulator/AzureNotificationHubsDemo.app/Default-667h.png
+    cd /Users/steven/dev/code/demo/AzureNotificationHubsDemo/AzureNotificationHubsDemo/platforms/ios
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/steven/Library/Android/sdk/platform-tools/"
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/steven/dev/code/demo/AzureNotificationHubsDemo/AzureNotificationHubsDemo/platforms/ios/AzureNotificationHubsDemo/Resources/splash/Default-667h.png /Users/steven/dev/code/demo/AzureNotificationHubsDemo/AzureNotificationHubsDemo/platforms/ios/build/emulator/AzureNotificationHubsDemo.app
+
+CpResource AzureNotificationHubsDemo/Resources/icons/icon-40.png build/emulator/AzureNotificationHubsDemo.app/icon-40.png
+    cd /Users/steven/dev/code/demo/AzureNotificationHubsDemo/AzureNotificationHubsDemo/platforms/ios
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/steven/Library/Android/sdk/platform-tools/"
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/steven/dev/code/demo/AzureNotificationHubsDemo/AzureNotificationHubsDemo/platforms/ios/AzureNotificationHubsDemo/Resources/icons/icon-40.png /Users/steven/dev/code/demo/AzureNotificationHubsDemo/AzureNotificationHubsDemo/platforms/ios/build/emulator/AzureNotificationHubsDemo.app
+
+CpResource AzureNotificationHubsDemo/Resources/splash/Default@2x~iphone.png build/emulator/AzureNotificationHubsDemo.app/Default@2x~iphone.png
+    cd /Users/steven/dev/code/demo/AzureNotificationHubsDemo/AzureNotificationHubsDemo/platforms/ios
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/steven/Library/Android/sdk/platform-tools/"
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/steven/dev/code/demo/AzureNotificationHubsDemo/AzureNotificationHubsDemo/platforms/ios/AzureNotificationHubsDemo/Resources/splash/Default@2x~iphone.png /Users/steven/dev/code/demo/AzureNotificationHubsDemo/AzureNotificationHubsDemo/platforms/ios/build/emulator/AzureNotificationHubsDemo.app
+
+CpResource AzureNotificationHubsDemo/Resources/icons/icon-60.png build/emulator/AzureNotificationHubsDemo.app/icon-60.png
+    cd /Users/steven/dev/code/demo/AzureNotificationHubsDemo/AzureNotificationHubsDemo/platforms/ios
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/steven/Library/Android/sdk/platform-tools/"
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/steven/dev/code/demo/AzureNotificationHubsDemo/AzureNotificationHubsDemo/platforms/ios/AzureNotificationHubsDemo/Resources/icons/icon-60.png /Users/steven/dev/code/demo/AzureNotificationHubsDemo/AzureNotificationHubsDemo/platforms/ios/build/emulator/AzureNotificationHubsDemo.app
+
+CpResource AzureNotificationHubsDemo/Resources/splash/Default~iphone.png build/emulator/AzureNotificationHubsDemo.app/Default~iphone.png
+    cd /Users/steven/dev/code/demo/AzureNotificationHubsDemo/AzureNotificationHubsDemo/platforms/ios
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/steven/Library/Android/sdk/platform-tools/"
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/steven/dev/code/demo/AzureNotificationHubsDemo/AzureNotificationHubsDemo/platforms/ios/AzureNotificationHubsDemo/Resources/splash/Default~iphone.png /Users/steven/dev/code/demo/AzureNotificationHubsDemo/AzureNotificationHubsDemo/platforms/ios/build/emulator/AzureNotificationHubsDemo.app
+
+CpResource AzureNotificationHubsDemo/Resources/splash/Default-568h@2x~iphone.png build/emulator/AzureNotificationHubsDemo.app/Default-568h@2x~iphone.png
+    cd /Users/steven/dev/code/demo/AzureNotificationHubsDemo/AzureNotificationHubsDemo/platforms/ios
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/steven/Library/Android/sdk/platform-tools/"
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/steven/dev/code/demo/AzureNotificationHubsDemo/AzureNotificationHubsDemo/platforms/ios/AzureNotificationHubsDemo/Resources/splash/Default-568h@2x~iphone.png /Users/steven/dev/code/demo/AzureNotificationHubsDemo/AzureNotificationHubsDemo/platforms/ios/build/emulator/AzureNotificationHubsDemo.app
+
+CpResource AzureNotificationHubsDemo/Resources/splash/Default-Landscape-736h.png build/emulator/AzureNotificationHubsDemo.app/Default-Landscape-736h.png
+    cd /Users/steven/dev/code/demo/AzureNotificationHubsDemo/AzureNotificationHubsDemo/platforms/ios
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/steven/Library/Android/sdk/platform-tools/"
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/steven/dev/code/demo/AzureNotificationHubsDemo/AzureNotificationHubsDemo/platforms/ios/AzureNotificationHubsDemo/Resources/splash/Default-Landscape-736h.png /Users/steven/dev/code/demo/AzureNotificationHubsDemo/AzureNotificationHubsDemo/platforms/ios/build/emulator/AzureNotificationHubsDemo.app
+
+CpResource AzureNotificationHubsDemo/Resources/icons/icon-60@3x.png build/emulator/AzureNotificationHubsDemo.app/icon-60@3x.png
+    cd /Users/steven/dev/code/demo/AzureNotificationHubsDemo/AzureNotificationHubsDemo/platforms/ios
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/steven/Library/Android/sdk/platform-tools/"
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/steven/dev/code/demo/AzureNotificationHubsDemo/AzureNotificationHubsDemo/platforms/ios/AzureNotificationHubsDemo/Resources/icons/icon-60@3x.png /Users/steven/dev/code/demo/AzureNotificationHubsDemo/AzureNotificationHubsDemo/platforms/ios/build/emulator/AzureNotificationHubsDemo.app
+
+CpResource AzureNotificationHubsDemo/Resources/icons/icon-50@2x.png build/emulator/AzureNotificationHubsDemo.app/icon-50@2x.png
+    cd /Users/steven/dev/code/demo/AzureNotificationHubsDemo/AzureNotificationHubsDemo/platforms/ios
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/steven/Library/Android/sdk/platform-tools/"
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/steven/dev/code/demo/AzureNotificationHubsDemo/AzureNotificationHubsDemo/platforms/ios/AzureNotificationHubsDemo/Resources/icons/icon-50@2x.png /Users/steven/dev/code/demo/AzureNotificationHubsDemo/AzureNotificationHubsDemo/platforms/ios/build/emulator/AzureNotificationHubsDemo.app
+
+CpResource AzureNotificationHubsDemo/Resources/icons/icon-76@2x.png build/emulator/AzureNotificationHubsDemo.app/icon-76@2x.png
+    cd /Users/steven/dev/code/demo/AzureNotificationHubsDemo/AzureNotificationHubsDemo/platforms/ios
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/steven/Library/Android/sdk/platform-tools/"
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/steven/dev/code/demo/AzureNotificationHubsDemo/AzureNotificationHubsDemo/platforms/ios/AzureNotificationHubsDemo/Resources/icons/icon-76@2x.png /Users/steven/dev/code/demo/AzureNotificationHubsDemo/AzureNotificationHubsDemo/platforms/ios/build/emulator/AzureNotificationHubsDemo.app
+
+CpResource AzureNotificationHubsDemo/Resources/icons/icon-72@2x.png build/emulator/AzureNotificationHubsDemo.app/icon-72@2x.png
+    cd /Users/steven/dev/code/demo/AzureNotificationHubsDemo/AzureNotificationHubsDemo/platforms/ios
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/steven/Library/Android/sdk/platform-tools/"
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/steven/dev/code/demo/AzureNotificationHubsDemo/AzureNotificationHubsDemo/platforms/ios/AzureNotificationHubsDemo/Resources/icons/icon-72@2x.png /Users/steven/dev/code/demo/AzureNotificationHubsDemo/AzureNotificationHubsDemo/platforms/ios/build/emulator/AzureNotificationHubsDemo.app
+
+ProcessInfoPlistFile build/emulator/AzureNotificationHubsDemo.app/Info.plist AzureNotificationHubsDemo/AzureNotificationHubsDemo-Info.plist
+    cd /Users/steven/dev/code/demo/AzureNotificationHubsDemo/AzureNotificationHubsDemo/platforms/ios
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/steven/Library/Android/sdk/platform-tools/"
+    builtin-infoPlistUtility /Users/steven/dev/code/demo/AzureNotificationHubsDemo/AzureNotificationHubsDemo/platforms/ios/AzureNotificationHubsDemo/AzureNotificationHubsDemo-Info.plist -genpkginfo /Users/steven/dev/code/demo/AzureNotificationHubsDemo/AzureNotificationHubsDemo/platforms/ios/build/emulator/AzureNotificationHubsDemo.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -additionalcontentfile /Users/steven/dev/code/demo/AzureNotificationHubsDemo/AzureNotificationHubsDemo/platforms/ios/build/AzureNotificationHubsDemo.build/Debug-iphonesimulator/AzureNotificationHubsDemo.build/MainViewController-PartialInfo.plist -o /Users/steven/dev/code/demo/AzureNotificationHubsDemo/AzureNotificationHubsDemo/platforms/ios/build/emulator/AzureNotificationHubsDemo.app/Info.plist
+
+GenerateDSYMFile build/emulator/AzureNotificationHubsDemo.app.dSYM build/emulator/AzureNotificationHubsDemo.app/AzureNotificationHubsDemo
+    cd /Users/steven/dev/code/demo/AzureNotificationHubsDemo/AzureNotificationHubsDemo/platforms/ios
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/steven/Library/Android/sdk/platform-tools/"
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/steven/dev/code/demo/AzureNotificationHubsDemo/AzureNotificationHubsDemo/platforms/ios/build/emulator/AzureNotificationHubsDemo.app/AzureNotificationHubsDemo -o /Users/steven/dev/code/demo/AzureNotificationHubsDemo/AzureNotificationHubsDemo/platforms/ios/build/emulator/AzureNotificationHubsDemo.app.dSYM
+
+Touch build/emulator/AzureNotificationHubsDemo.app
+    cd /Users/steven/dev/code/demo/AzureNotificationHubsDemo/AzureNotificationHubsDemo/platforms/ios
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/steven/Library/Android/sdk/platform-tools/"
+    /usr/bin/touch -c /Users/steven/dev/code/demo/AzureNotificationHubsDemo/AzureNotificationHubsDemo/platforms/ios/build/emulator/AzureNotificationHubsDemo.app
+
+** BUILD SUCCEEDED **
+
+** BUILD SUCCEEDED **
