@@ -15,7 +15,18 @@
         // TODO: Cordova has been loaded. Perform any initialization that requires Cordova here.
         var connectionString = "Endpoint=sb://gccnotify.servicebus.windows.net/;SharedAccessKeyName=DefaultListenSharedAccessSignature;SharedAccessKey=jyNcl/Z8Qho8w668fMtdAuQrbhg+YHTAuKPTryZ4fMk=";
         var notificationHubPath = "test";
-    try {
+
+        var hub = new WindowsAzure.Messaging.NotificationHub(notificationHubPath, connectionString);
+
+        hub.registerApplicationAsync().then(function (result) {
+            console.log("Registration successful: " + result.registrationId);
+        });
+
+        hub.onPushNotificationReceived = function (msg) {
+            console.log('onPushNotificationReceived:' + JSON.stringify(msg));
+        };
+
+    /*try {
       var hub = NotificationHub.init(notificationHubPath,
         connectionString,
         {
@@ -45,7 +56,7 @@
        } catch (e)
        {
         console.log(e);
-       }
+       }*/
 
     };
 
