@@ -10,53 +10,55 @@
     function onDeviceReady() {
         // Handle the Cordova pause and resume events
         document.addEventListener( 'pause', onPause.bind( this ), false );
-        document.addEventListener( 'resume', onResume.bind( this ), false );
+        document.addEventListener('resume', onResume.bind(this), false);
 
-        // TODO: Cordova has been loaded. Perform any initialization that requires Cordova here.
-        var connectionString = "Endpoint=sb://gccnotify.servicebus.windows.net/;SharedAccessKeyName=DefaultListenSharedAccessSignature;SharedAccessKey=jyNcl/Z8Qho8w668fMtdAuQrbhg+YHTAuKPTryZ4fMk=";
-        var notificationHubPath = "test";
+        if (device.platform == "windows") {
 
-        var hub = new WindowsAzure.Messaging.NotificationHub(notificationHubPath, connectionString);
+            // TODO: Cordova has been loaded. Perform any initialization that requires Cordova here.
+            var connectionString = "Endpoint=sb://gccnotify.servicebus.windows.net/;SharedAccessKeyName=DefaultListenSharedAccessSignature;SharedAccessKey=jyNcl/Z8Qho8w668fMtdAuQrbhg+YHTAuKPTryZ4fMk=";
+            var notificationHubPath = "test";
 
-        hub.registerApplicationAsync().then(function (result) {
-            console.log("Registration successful: " + result.registrationId);
-        });
+            var hub = new WindowsAzure.Messaging.NotificationHub(notificationHubPath, connectionString);
 
-        hub.onPushNotificationReceived = function (msg) {
-            console.log('onPushNotificationReceived:' + JSON.stringify(msg));
-        };
+            hub.registerApplicationAsync().then(function (result) {
+                console.log("Registration successful: " + result.registrationId);
+            });
 
-    /*try {
-      var hub = NotificationHub.init(notificationHubPath,
-        connectionString,
-        {
-          "android": {
-            "senderID": "1082522035766"
-          },
-          "ios": {},
-          "windows": {}
-        });
+            hub.onPushNotificationReceived = function (msg) {
+                console.log('onPushNotificationReceived:' + JSON.stringify(msg));
+            };
+        } else {
 
-       hub.on('registration', function (data) {
-             console.log("registration event");
-             console.log(JSON.stringify(data));
-             console.log(data.registrationId);
-           });
+            try {
+                var hub = NotificationHub.init(notificationHubPath,
+                  connectionString,
+                  {
+                      "android": {
+                          "senderID": "1082522035766"
+                      },
+                      "ios": {}
+                  });
 
-       hub.on('notification', function (data) {
-             console.log("notification event");
-             console.log(JSON.stringify(data));
-           });
+                hub.on('registration', function (data) {
+                    console.log("registration event");
+                    console.log(JSON.stringify(data));
+                    console.log(data.registrationId);
+                });
 
-       hub.on('error', function (data) {
-             console.log("notification error");
-             console.log(JSON.stringify(data));
-           });
+                hub.on('notification', function (data) {
+                    console.log("notification event");
+                    console.log(JSON.stringify(data));
+                });
 
-       } catch (e)
-       {
-        console.log(e);
-       }*/
+                hub.on('error', function (data) {
+                    console.log("notification error");
+                    console.log(JSON.stringify(data));
+                });
+
+            } catch (e) {
+                console.log(e);
+            }
+        }
 
     };
 
